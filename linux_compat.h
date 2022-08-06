@@ -22,5 +22,7 @@ strlcpy(char *dst, const char *src, size_t siz);
 
 _Noreturn void errc(int eval, int status, const char *fmt, ...);
 
+#define __FBSDID(x)
+
 #endif /* __linux__ */
 #endif /* LINUX_COMPAT_H */
